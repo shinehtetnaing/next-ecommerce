@@ -1,5 +1,8 @@
 import { Nav, NavLink } from "@/components/Nav";
 
+// no cache
+export const dynamic = "force-dynamic";
+
 export default function AdminLayout({
   children,
 }: Readonly<{
