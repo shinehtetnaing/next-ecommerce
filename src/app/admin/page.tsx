@@ -7,7 +7,6 @@ import {
 } from "@/components/ui/card";
 import db from "@/db/db";
 import { formatCurrency, formatNumber } from "@/lib/formatters";
-import { resolve } from "path";
 
 function wait(duration: number) {
   return new Promise((resolve) => setTimeout(resolve, duration));
