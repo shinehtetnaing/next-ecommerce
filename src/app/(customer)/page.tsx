@@ -45,7 +45,7 @@ type ProductGridSectionProps = {
   productsFetcher: () => Promise<Product[]>;
 };
 
-async function ProductGridSection({
+function ProductGridSection({
   productsFetcher,
   title,
 }: ProductGridSectionProps) {
