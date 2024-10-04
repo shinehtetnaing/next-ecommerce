@@ -1,6 +1,6 @@
 "use client";
 
-import { deleteUser } from "@/app/actions/users";
+import { deleteUser } from "@/app/admin/_actions/users";
 import { DropdownMenuItem } from "@/components/ui/dropdown-menu";
 import { useRouter } from "next/navigation";
 import { useTransition } from "react";
